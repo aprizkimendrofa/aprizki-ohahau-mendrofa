@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav>
+    <div class="left">
+      <a href="/">Aprizki Ohahau Mendrofa</a>
+    </div>
+
+    <div class="right">
+      <a href="https://www.instagram.com/ap_riz27" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-instagram"></i>
+        <span>Instagram</span>
+      </a>
+      
+      <a href="https://www.tiktok.com/@aommdf" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-tiktok"></i>
+        <span>TikTok</span>
+      </a>
+      
+      <a href="mailto:aprizkimendrofa2022@gmail.com">
+        <i class="fa-solid fa-envelope"></i>
+        <span>Email</span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Aprizki 👋</h2>
+        <p>Saya sekarang mahasiswa di Universitas Teknologi Yogyakarta. Saya senang belajar hal baru, terutama dalam bidang teknologi dan desain. Mari bekerja sama untuk menciptakan sesuatu yang luar biasa!</p>
+
+        <div class="links">
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+          
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="potoku.jpeg" alt="Aprizki Ohahau Mendrofa">
+      </div>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        Berikut adalah keterampilan yang saya miliki:
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="html-logo.webp" alt="HTML logo">
+          <span>HTML</span>
+        </div>
+        
+        <div class="cell">
+          <img src="css-logo.webp" alt="CSS logo">
+          <span>CSS</span>
+        </div>
+        
+        <div class="cell">
+          <img src="javascript-logo.webp" alt="JavaScript logo">
+          <span>JavaScript</span>
+        </div>
+        
+        <div class="cell">
+          <img src="python-svgrepo-com.svg" alt="Python logo">
+          <span>Python</span>
+        </div>
+        
+        <div class="cell">
+          <img src="ps.png" alt="Public Speaking logo">
+          <span>Public Speaking</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          Jika Anda memiliki pertanyaan, ingin berdiskusi, atau ingin berkolaborasi, jangan ragu untuk menghubungi saya melalui formulir di bawah ini atau melalui tautan media sosial saya.
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" cols="30" rows="10" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
